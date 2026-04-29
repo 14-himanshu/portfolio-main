@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Himanshu Pandey | Portfolio
 
-## Getting Started
+A high-performance, premium developer portfolio built with **Next.js 16**, **Tailwind CSS 4**, and **Framer Motion**.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Premium Design**: Dark and light themes with custom mesh gradients and noise textures.
+- **Dynamic UX**: Floating interactive navbar with active section detection.
+- **Sophisticated Animations**: Entrance animations, magnetic-style buttons, and shimmer effects.
+- **Modern Tech Stack**: Leveraging the latest React 19 features and Tailwind v4.
+- **Responsive**: Fully optimized for mobile, tablet, and desktop.
+- **SEO Optimized**: Metadata and semantic HTML structure.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
+- **Fonts**: [Google Fonts (Outfit & Inter)](https://fonts.google.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏁 Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js 18.17 or later
+- npm or yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/14-himanshu/portfolio-main.git
+   ```
 
-## Deploy on Vercel
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📁 Project Structure
+
+- `src/app`: Application routes and global styles.
+- `src/components`: Reusable UI components (Hero, Projects, Navbar, etc.).
+- `src/lib`: Utility functions and data constants.
+- `public`: Static assets.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
